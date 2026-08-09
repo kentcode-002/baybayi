@@ -1,0 +1,10 @@
+ {/* <div className="sun-disc" aria-hidden="true" />
+          <Baybayi />
+          <div
+            className="speech-bubble text-justify"
+            data-testid="text-welcome"
+          >
+            <span className="speech-tail text-black" />
+            Magandang buhay! Ako si Baybayi at hilig ko ang bumaybay ng mga
+            salita! Halina’t samahan niyo ako!
+          </div> */}
