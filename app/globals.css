@@ -1237,7 +1237,7 @@ input:focus-visible {
   }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 820px), (max-width: 1024px) and (orientation: portrait) {
   .screen {
     height: auto;
     min-height: 100vh;
@@ -1307,6 +1307,9 @@ input:focus-visible {
     font-size: 12px;
     margin-right: 0;
   }
+  .game-brand {
+    font-size: 1rem;
+  }
   .opening-layout {
     width: calc(100% - 34px);
     display: flex;
@@ -1341,17 +1344,18 @@ input:focus-visible {
     order: 2;
   }
   .baybayi {
-    width: 240px;
+    margin-top: 10px;
+    width: 160px;
   }
   .sun-disc {
     width: 280px;
     height: 280px;
   }
   .speech-bubble {
-    right: 0;
-    top: 0;
+    right: -10px;
+    top: 5px;
     max-width: 185px;
-    font-size: 13px;
+    font-size: 10px;
     padding: 13px;
   }
   .opening-action {
@@ -1375,12 +1379,17 @@ input:focus-visible {
     margin-top: 20px;
   }
   .guideline-card h2 {
-    font-size: 27px;
+    font-size: 20px;
+  }
+  .guideline-card .card-intro {
+    font-size: 12px;
   }
   .rules-list li {
-    font-size: 20px;
     grid-template-columns: 31px 1fr;
     gap: 8px;
+  }
+  .rules-list span {
+    font-size: 18px;
   }
   .next-button {
     width: 100%;

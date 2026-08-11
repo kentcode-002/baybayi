@@ -305,10 +305,7 @@ function GuidelinesScreen({
       <Sparkles />
       <div className="screen-topbar">
         <HomeButton onClick={onBack} />
-        <div
-          className="mini-brand text-[45px] text-[#d7653d]"
-          data-testid="text-mini-brand"
-        >
+        <div className="game-brand" data-testid="text-mini-brand">
           BAYBAYIN ANG KAALAMAN
         </div>
       </div>
